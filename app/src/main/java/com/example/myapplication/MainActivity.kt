@@ -8,6 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import android.widget.TextView
 import android.widget.Button
 import android.graphics.Color
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,5 +33,6 @@ class MainActivity : AppCompatActivity() {
         val rootLayout = findViewById<View>(R.id.main) // id of the root layout
         button3.setOnClickListener {
             rootLayout.setBackgroundColor(Color.YELLOW)
+        }
     }
 }
