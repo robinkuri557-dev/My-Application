@@ -28,5 +28,9 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener {
             textView.setTextColor(Color.RED)
         }
+        val button3 = findViewById<Button>(R.id.button3)
+        val rootLayout = findViewById<View>(R.id.main) // id of the root layout
+        button3.setOnClickListener {
+            rootLayout.setBackgroundColor(Color.YELLOW)
     }
 }
