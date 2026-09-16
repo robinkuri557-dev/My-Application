@@ -21,8 +21,11 @@ class MainActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.textView)
         val button1 = findViewById<Button>(R.id.button1)
         button1.setOnClickListener {
-            textView.text = "Button was clicked!"
+            textView.text = "Hello, Martas"
         }
-
+        val button2 = findViewById<Button>(R.id.button2)
+        button2.setOnClickListener {
+            textView.setTextColor(Color.RED)
+        }
     }
 }
