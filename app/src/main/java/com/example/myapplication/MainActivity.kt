@@ -11,7 +11,6 @@ import android.graphics.Color
 import android.view.View
 
 class MainActivity : AppCompatActivity() {
-    //Code for revert
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
